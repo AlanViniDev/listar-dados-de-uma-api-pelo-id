@@ -15,7 +15,7 @@ curl_setopt($iniciar,CURLOPT_SSL_VERIFYPEER,false);
 /* Converte json para objeto php */
 $acessa = json_decode(curl_exec($iniciar));
 
-/* lista os dados de acordo com id */
+/* lista um dado de acordo com id */
 foreach($acessa->dados as $coluna)
 {
     if (($coluna->id) == 3){
