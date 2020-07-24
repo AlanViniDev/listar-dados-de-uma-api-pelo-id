@@ -27,3 +27,19 @@ foreach($acessa->dados as $coluna)
     }
 }
 
+/*Se preferir listar todos os dados*/
+/*
+foreach($acessa->dados as $coluna)
+{   $i = 0;
+    while($i <= 0)
+    {
+        echo "ID: " . $coluna->id;
+        echo "</br>";
+        echo "Produto: " . $coluna->produto;
+        echo "</br>";
+        echo "Preço: " . $coluna->preco;
+        echo "</br>";
+    $i++;
+}
+}
+*/
