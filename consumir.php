@@ -18,7 +18,7 @@ $acessa = json_decode(curl_exec($iniciar));
 /* lista os dados de acordo com id */
 foreach($acessa->dados as $coluna)
 {
-    if (($coluna->id[0]) == 3){
+    if (($coluna->id) == 3){
         echo "ID: " . $coluna->id;
         echo "</br>";
         echo "Produto: " . $coluna->produto;
